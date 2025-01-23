@@ -1,0 +1,12 @@
+2025-01-23T10:18:07.459Z | GET | /
+2025-01-23T10:18:30.040Z | GET | /about
+2025-01-23T10:18:34.232Z | GET | /contact
+2025-01-23T10:18:38.026Z | POST | /products
+2025-01-23T10:18:47.899Z | GET | /orders/1
+2025-01-23T10:19:25.463Z | GET | /assets/image.png
+2025-01-23T10:21:29.011Z | GET | /%20random
+2025-01-23T10:25:42.277Z | GET | /error-test%0A
+2025-01-23T10:30:22.514Z | GET | /error-test%0A
+2025-01-23T10:43:15.463Z | GET | /error-test
+2025-01-23T10:47:00.998Z | GET | /error-test
+2025-01-23T10:47:13.876Z | GET | /%20random
