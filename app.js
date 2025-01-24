@@ -1,6 +1,12 @@
 import express from "express";
 const app = express();
 
+//set the view engine to handlebars
+app.set("view engine","hbs")
+
+//see the views directory
+app.set("views","views")
+
 //middleware to handle json data
 
 app.use(express.json());
@@ -40,3 +46,13 @@ app.listen(PORT,()=>{
 
 })
 
+
+let data ={
+    name:"pranjal pandey",
+    products:["sunscreen","lipgloss","blush","lipliner","bb creams"],
+    price:250
+}
+
+app.get("/new",(req,res)=>{
+    res.render("home",{data:data})
+})
